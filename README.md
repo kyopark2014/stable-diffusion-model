@@ -11,10 +11,16 @@
 
 ## Stable Diffusion 실행
 
+필요한 코드를 다운로드 합니다. 
+
+```java
+git clone https://github.com/kyopark2014/stable-diffusion-model
+```
+
 필요한 라이브러리를 설치합니다. 
 
 ```java
-pip install torch diffusers transformers
+pip install torch diffusers transformers 
 pip install accelerate
 ```
 
