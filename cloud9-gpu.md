@@ -41,15 +41,22 @@ echo <Paste the Copied Key> >> ~/.ssh/authorized_keys
 sudo apt-get update
 ```
 
-아래와 같이 python2.7과 node.js를 설치합니다.
+아래와 같이 pip python2.7과 node.js를 설치합니다.
 
 ```java
-sudo apt-get install -y python2 nodejs
+sudo apt-get install -y pip python2 nodejs
 ```
 
+다시 Cloud9으로 와서 [User]에 "ubuntu"라고 입력하고, 생성한 EC2의 Public IP를 아래처럼 입력합니다. 이후 하단의 [Create]를 선택하여 Cloud9을 선택합니다. 
 
 
+![noname](https://user-images.githubusercontent.com/52392004/216661248-2fb846d2-4e07-435d-8b79-d4f8d037c206.png)
 
 
+아래와 같이 [Environment]에서 생성한 "cloud9-gpu"에서 [Open]을 선택하여 cloud9으로 진입합니다. 이대 아래와 같은 화면이 나오면 [Next]를 선택합니다.
 
+![image](https://user-images.githubusercontent.com/52392004/216662019-28f065d7-88a5-4ad5-8182-9362751a63d9.png)
 
+아래와 같이 Installer에서도 [Next]를 선택하여 필요한 패키지를 설치합니다. 수분정도 소요됩니다. 
+
+![image](https://user-images.githubusercontent.com/52392004/216662159-5ff76f78-7beb-4365-871e-dbbd4d23e912.png)
