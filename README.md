@@ -50,11 +50,15 @@ sudo apt-get update
 sudo apt-get -y install cuda
 ```
 
-nvidia cuda toolkit을 
+Nvidia cuda toolkit을 아래와 같이 설치합니다.
 
 ```java
 sudo apt-get install nvidia-cuda-toolkit
+```
 
+아래와 같이 설치된 policy를 확인할 수 있습니다.
+
+```java
 apt-cache policy nvidia-cuda-toolkit
 nvidia-cuda-toolkit:
   Installed: 11.5.1-1ubuntu1
@@ -65,13 +69,14 @@ nvidia-cuda-toolkit:
         100 /var/lib/dpkg/status
 ```        
 
+정상적으로 설치되었는지 아래와 같이 동작을 확인합니다. 이때 True가 나와와 합니다. 
+
 ```java
 $ python3 -c 'import torch; print(torch.cuda.is_available())'
 False
 ```
 
-[NVIDIA Driver Installation Quickstart Guide](https://docs.nvidia.com/datacenter/tesla/tesla-installation-notes/index.html#ubuntu-lts)에 따라 driver를 아래와 같이 설치합니다. 
-
+상기와 같이 정상적이지 않은 경우에 [NVIDIA Driver Installation Quickstart Guide](https://docs.nvidia.com/datacenter/tesla/tesla-installation-notes/index.html#ubuntu-lts)을 따라 driver를 설치합니다. 
 
 ```java
 sudo apt-get install linux-headers-$(uname -r)
@@ -82,13 +87,15 @@ sudo apt-get update
 sudo apt-get -y install cuda-drivers
 ```
 
+결과적으로 True를 얻었습니다. 
 
-## 실행
+## Stable Diffusion 실행
 
 필요한 라이브러리를 설치합니다. 
 
 ```java
 pip install torch diffusers transformers
+pip install accelerate
 ```
 
 Stable Diffusion을 실행합니다. 
@@ -96,6 +103,12 @@ Stable Diffusion을 실행합니다.
 ```java
 cd text2image/ && python3 stable-diffusion.py
 ```
+
+이때의 결과는 아래와 같습니다.
+
+![astronaut_rides_horse](https://user-images.githubusercontent.com/52392004/216675578-137efd06-7c39-419d-a37b-ac3ca274f601.png)
+
+
 
 ## Reference
 
