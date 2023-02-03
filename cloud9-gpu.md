@@ -60,3 +60,8 @@ sudo apt-get install -y pip python2 nodejs
 아래와 같이 Installer에서도 [Next]를 선택하여 필요한 패키지를 설치합니다. 수분정도 소요됩니다. 
 
 ![image](https://user-images.githubusercontent.com/52392004/216662159-5ff76f78-7beb-4365-871e-dbbd4d23e912.png)
+
+설치가 완료되면 아래와 같이 터미널로 접속합니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/216664493-8fa9c618-8ab1-4ea1-8563-74a94ee27aef.png)
+
