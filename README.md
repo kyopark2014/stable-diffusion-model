@@ -4,6 +4,11 @@
 
 Cloud9 생성후 [Cloud9에서 EBS 크기 변경](https://github.com/kyopark2014/technical-summary/blob/main/resize.md)에 따라 EBS의 크기를 변경합니다. 
 
+## 실행
+
+```java
+pip install torch diffusers transformers
+```
 
 ## Reference
 
