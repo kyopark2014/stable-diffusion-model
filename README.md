@@ -50,6 +50,39 @@ sudo apt-get update
 sudo apt-get -y install cuda
 ```
 
+nvidia cuda toolkit을 
+
+```java
+sudo apt-get install nvidia-cuda-toolkit
+
+apt-cache policy nvidia-cuda-toolkit
+nvidia-cuda-toolkit:
+  Installed: 11.5.1-1ubuntu1
+  Candidate: 11.5.1-1ubuntu1
+  Version table:
+ *** 11.5.1-1ubuntu1 500
+        500 http://ap-northeast-2.ec2.archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages
+        100 /var/lib/dpkg/status
+```        
+
+```java
+$ python3 -c 'import torch; print(torch.cuda.is_available())'
+False
+```
+
+[NVIDIA Driver Installation Quickstart Guide](https://docs.nvidia.com/datacenter/tesla/tesla-installation-notes/index.html#ubuntu-lts)에 따라 driver를 아래와 같이 설치합니다. 
+
+
+```java
+sudo apt-get install linux-headers-$(uname -r)
+distribution=$(. /etc/os-release;echo $ID$VERSION_ID | sed -e 's/\.//g')
+wget https://developer.download.nvidia.com/compute/cuda/repos/$distribution/x86_64/cuda-keyring_1.0-1_all.deb
+sudo dpkg -i cuda-keyring_1.0-1_all.deb
+sudo apt-get update
+sudo apt-get -y install cuda-drivers
+```
+
+
 ## 실행
 
 필요한 라이브러리를 설치합니다. 
