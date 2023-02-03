@@ -1,6 +1,6 @@
 # Stable Diffusion Model
 
-Prompt Engineering으로도 불리는 Stable Diffusion은 텍스트 또는 이미지를 입력하면 인공지능(AI)이 Art Generator로서 그림을 그려줄 수 있습니다. 여기에서는 Hugging Face의 [stable-diffusion-v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5)을 Cloud9에서 구현하는것을 설명합니다. 
+Prompt Engineering으로도 불리는 Stable Diffusion은 텍스트 또는 이미지를 입력하면 인공지능(AI)이 Art Generator로서 그림을 그려줄 수 있습니다. 여기에서는 Hugging Face의 [stable-diffusion-v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5)을 이용하여 Cloud9에서 Stable Diffusion을 구현하는것을 설명합니다. 
 
 
 ## Cloud9 준비 
