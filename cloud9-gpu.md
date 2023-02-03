@@ -14,6 +14,42 @@
 
 [Cloud9 Console](https://ap-northeast-2.console.aws.amazon.com/cloud9control/home?region=ap-northeast-2#/create)에서 아래와 같이 [Name]을 입력하고, [Existing compute]를 선택한 후에 [Copy key to clipboard]를 선택하여 ssh key를 복사합니다. 여기서는 Name으로 "cloud9-gpu"라고 입력하였습니다. 
 
-
 ![noname](https://user-images.githubusercontent.com/52392004/216656333-24d9347a-8564-4018-93ec-0e38a0e7ade2.png)
+
+[EC2 Console](https://ap-northeast-2.console.aws.amazon.com/ec2/home?region=ap-northeast-2#Instances:)로 이동하여, 생성한 EC2를 선택하고 [Connect]를 선택합니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/216657296-77e8b81a-d287-4a50-ae17-8137c845bdbe.png)
+
+아래와 같이 [Connect to instances]에서 [Connect]를 선택합니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/216657819-4fd9629b-a000-4d1b-a602-ef6971a698ed.png)
+
+이제 authorized_keys에 Cloud9에서 복사한 ssh key를 입력합니다. 
+
+```java
+echo <Paste the Copied Key> >> ~/.ssh/authorized_keys
+```
+
+아래와 같이 입력됩니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/216660260-e01667b7-1c5c-41db-8539-ff5b9ac8d6ea.png)
+
+
+필요한 패키지를 설치하기위해 먼저 Update를 수행합니다. 
+
+```java
+sudo apt-get update
+```
+
+아래와 같이 python2.7과 node.js를 설치합니다.
+
+```java
+sudo apt-get install -y python2 nodejs
+```
+
+
+
+
+
+
 
