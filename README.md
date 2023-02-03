@@ -6,8 +6,16 @@ Cloud9 생성후 [Cloud9에서 EBS 크기 변경](https://github.com/kyopark2014
 
 ## 실행
 
+필요한 라이브러리를 설치합니다. 
+
 ```java
 pip install torch diffusers transformers
+```
+
+Stable Diffusion을 실행합니다. 
+
+```java
+cd text2image/ && python3 stable-diffusion.py
 ```
 
 ## Reference
