@@ -34,7 +34,7 @@ UBUNTU_CODENAME=jammy
 
 ![image](https://user-images.githubusercontent.com/52392004/216669274-5bf5eac3-7980-4815-8fc5-00ea8bfab106.png)
 
-여기서 선택된 멸령어는 아래와 같습니다.
+여기서 선택된 명령어는 아래와 같습니다.
 
 ```java
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin
@@ -65,14 +65,7 @@ nvidia-cuda-toolkit:
         100 /var/lib/dpkg/status
 ```        
 
-정상적으로 설치되었는지 아래와 같이 동작을 확인합니다. 이때 True가 나와와 합니다. 
-
-```java
-$ python3 -c 'import torch; print(torch.cuda.is_available())'
-False
-```
-
-상기와 같이 정상적이지 않은 경우에 [NVIDIA Driver Installation Quickstart Guide](https://docs.nvidia.com/datacenter/tesla/tesla-installation-notes/index.html#ubuntu-lts)을 따라 driver를 설치합니다. 
+[NVIDIA Driver Installation Quickstart Guide](https://docs.nvidia.com/datacenter/tesla/tesla-installation-notes/index.html#ubuntu-lts)을 따라 driver를 설치합니다. 
 
 ```java
 sudo apt-get install linux-headers-$(uname -r)
@@ -83,4 +76,11 @@ sudo apt-get update
 sudo apt-get -y install cuda-drivers
 ```
 
-결과적으로 True를 얻었습니다. 
+
+정상적으로 설치되었는지 아래와 같이 동작을 확인합니다. 이때 True가 나와와 합니다. 
+
+```java
+$ python3 -c 'import torch; print(torch.cuda.is_available())'
+True
+```
+
