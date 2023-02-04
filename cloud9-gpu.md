@@ -53,7 +53,11 @@ sudo apt-get install -y pip python2 nodejs
 ![noname](https://user-images.githubusercontent.com/52392004/216661248-2fb846d2-4e07-435d-8b79-d4f8d037c206.png)
 
 
-아래와 같이 [Environment]에서 생성한 "cloud9-gpu"에서 [Open]을 선택하여 cloud9으로 진입합니다. 이대 아래와 같은 화면이 나오면 [Next]를 선택합니다.
+아래와 같이 [Environment]에서 생성한 "cloud9-gpu"에서 [Open]을 선택하여 cloud9으로 진입합니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/216733393-1635c558-35a8-4ba6-b177-fb4bea3ac701.png)
+
+아래와 같은 설치 화면이 나오면 [Next]를 선택합니다.
 
 ![image](https://user-images.githubusercontent.com/52392004/216662019-28f065d7-88a5-4ad5-8182-9362751a63d9.png)
 
