@@ -14,15 +14,6 @@ Prompt Engineering으로도 불리는 [Stable Diffusion](https://stability.ai/bl
 Stable Diffusion을 실행할때 필요한 라이브러리를 설치합니다. 
 
 ```java
-pip install --upgrade pip
-
-python3 -m pip install huggingface-hub
-python3 -m pip install diffusers
-python3 -m pip install setuptools_rust
-python3 -m pip install transformers
-```
-
-```java
 pip install torch diffusers transformers accelerate
 ```
 
