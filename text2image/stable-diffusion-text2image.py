@@ -3,7 +3,7 @@ import torch
 
 def text2image(device):
     # model_id = "runwayml/stable-diffusion-v1-5"
-    model_id = "../stable-diffusion-v1-5"
+    model_id = "../../stable-diffusion-v1-5"
     
     if device == "cuda":
         pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16)

@@ -19,4 +19,6 @@ pipe = StableDiffusionInpaintPipeline.from_pretrained("runwayml/stable-diffusion
 pipe = pipe.to("cuda")
 
 prompt = "Face of a yellow cat, high resolution, sitting on a park bench"
-image = pipe(prompt=prompt, image=init_image, mask_image=mask_image).images[0]
+images = pipe(prompt=prompt, image=init_image, mask_image=mask_image).images
+
+images[0].save("inpainting.png")
