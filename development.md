@@ -32,3 +32,8 @@ echo \
 ```java
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
+
+## CPU 설정
+
+속도가 
+속도가 느리
