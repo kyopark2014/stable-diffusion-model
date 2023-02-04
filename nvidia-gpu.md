@@ -52,6 +52,12 @@ sudo apt-get update
 sudo apt-get -y install cuda
 ```
 
+라이브러리를 설치합니다.
+
+```java
+pip install torch
+```
+
 정상적으로 설치되었는지 아래와 같이 확인합니다. 이때 True가 나와와 합니다. 
 
 ```java
