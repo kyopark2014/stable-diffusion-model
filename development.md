@@ -35,5 +35,14 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 ## CPU 설정
 
-속도가 
-속도가 느리
+속도는 느리지만 CPU로도 구현이 가능합니다. 
+
+1) [Cloud9 Console](https://ap-northeast-2.console.aws.amazon.com/cloud9control/home?region=ap-northeast-2#/)에서 [Create environment]를 선택하여 Cloud9을 생성합니다. 
+
+2) [Cloud9에서 EBS 크기 변경](https://github.com/kyopark2014/technical-summary/blob/main/resize.md)를 참조하여 아래처럼 크기를 변경합니다.
+
+```java
+wget https://raw.githubusercontent.com/kyopark2014/technical-summary/main/resize.sh
+chmod a+rx resize.sh
+./resize.sh 100
+```
