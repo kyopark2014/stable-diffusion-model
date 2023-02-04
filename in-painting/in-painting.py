@@ -21,4 +21,4 @@ pipe = pipe.to("cuda")
 prompt = "Face of a yellow cat, high resolution, sitting on a park bench"
 images = pipe(prompt=prompt, image=init_image, mask_image=mask_image).images
 
-images[0].save("inpainting.png")
+images[0].save("in-painting.png")
