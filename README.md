@@ -73,7 +73,25 @@ cd text2image/ && python3 stable-diffusion.py
 
 ### Image2Image
 
+아래의 원본이미지를 "A fantasy landscape, trending on artstation"로 변환한 결과는 아래와 같습니다.
+
+- 원본 이미지
+![sketch-mountains-input](https://user-images.githubusercontent.com/52392004/216759733-f9b362d0-7ed5-4b4f-8fe8-61f91af110aa.jpeg)
+
+- 변환된 이미지
+![fantasy_landscape](https://user-images.githubusercontent.com/52392004/216759738-05a00e84-ac2e-4af9-9352-56b57b9b8b81.png)
+
+
 ### In-painting
+
+- 원본 이미지
+![overture-creations-5sI6fQgYIuo](https://user-images.githubusercontent.com/52392004/216759803-cc1fc6d1-18ac-4410-bdd8-40cdd763c418.png)
+
+- Mask 이미지
+![overture-creations-5sI6fQgYIuo_mask](https://user-images.githubusercontent.com/52392004/216759809-027e9957-c3da-4772-b5d4-cf33e1fa3a40.png)
+
+- 변환된 이미지
+![in-painting](https://user-images.githubusercontent.com/52392004/216759815-206b48e5-b3ec-4e2f-aa07-4647e16aae87.png)
 
 
 
