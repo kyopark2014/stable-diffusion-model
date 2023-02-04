@@ -21,7 +21,7 @@ pip install torch diffusers transformers
 pip install accelerate
 ```
 
-[stable-diffusion-v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5)에 따라 [stable-diffusion.py](https://github.com/kyopark2014/stable-diffusion-model/blob/main/text2image/stable-diffusion.py)을 생성하거나 아래와 같이 다운로드합니다.
+[stable-diffusion-v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5)을 참조하여 [stable-diffusion.py](https://github.com/kyopark2014/stable-diffusion-model/blob/main/text2image/stable-diffusion.py)을 생성하거나 아래와 같이 다운로드합니다.
 
 ```java
 git clone https://github.com/kyopark2014/stable-diffusion-model
