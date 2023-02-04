@@ -13,7 +13,11 @@
 Docker 환경도 설치합니다.
 
 ```java
-sudo apt-get update && upgrade
+sudo apt-get update
+sudo apt-get upgrade
+```
+
+```java
 sudo apt-get install \
     ca-certificates \
     curl \
@@ -26,6 +30,5 @@ echo \
 ```
 
 ```java
-sudo apt-get update && upgrade
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
