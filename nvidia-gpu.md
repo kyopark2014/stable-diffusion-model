@@ -46,6 +46,19 @@ sudo apt-get update
 sudo apt-get -y install cuda
 ```
 
+정상적으로 설치되었는지 아래와 같이 확인합니다. 이때 True가 나와와 합니다. 
+
+```java
+$ python3 -c 'import torch; print(torch.cuda.is_available())'
+True
+```
+
+
+
+## Troubleshooting
+
+상기 GPU 테스트에서 False 인 경우에 아래를 추가적으로 수행합니다.
+
 Nvidia cuda toolkit을 아래와 같이 설치합니다.
 
 ```java
@@ -76,10 +89,4 @@ sudo apt-get update
 sudo apt-get -y install cuda-drivers
 ```
 
-정상적으로 설치되었는지 아래와 같이 확인합니다. 이때 True가 나와와 합니다. 
-
-```java
-$ python3 -c 'import torch; print(torch.cuda.is_available())'
-True
-```
 
