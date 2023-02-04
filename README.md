@@ -5,7 +5,7 @@ Prompt Engineering으로도 불리는 [Stable Diffusion](https://stability.ai/bl
 
 ## GPU를 가진 Cloud9 개발 환경  
 
-[Cloud9 설정](https://github.com/kyopark2014/stable-diffusion-model/blob/main/cloud9-gpu.md)에 따라 GPU를 가진 Cloud9 개발 환경을 준비합니다.
+[GPU를 사용할수 있는 Cloud9 설정](https://github.com/kyopark2014/stable-diffusion-model/blob/main/cloud9-gpu.md)에 따라 GPU를 가진 EC2를 Cloud9 개발 환경으로 준비합니다.
 
 ## NVIDIA GPU 설정
 
