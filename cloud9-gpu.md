@@ -18,11 +18,11 @@
 
 ![noname](https://user-images.githubusercontent.com/52392004/216656333-24d9347a-8564-4018-93ec-0e38a0e7ade2.png)
 
-[EC2 Console](https://ap-northeast-2.console.aws.amazon.com/ec2/home?region=ap-northeast-2#Instances:)로 이동하여, 생성한 EC2를 선택하고 먼저, "Public IPv4 DNS"의 값을 확인합니다. 여기서는, "13.124.191.23"입니다.
+[EC2 Console](https://ap-northeast-2.console.aws.amazon.com/ec2/home?region=ap-northeast-2#Instances:)로 이동하여, 생성한 EC2를 선택하고 먼저, "Public IPv4 DNS"의 값을 확인합니다. 여기서는, "13.124.191.23"입니다. 이후 아래처럼 생성한 인스턴스를 선택하고, [Connect]를 선택합니다. 
 
-![noname](https://user-images.githubusercontent.com/52392004/216788551-4af180fa-60e0-4ba9-9cb9-3757d8f17122.png)
+![noname](https://user-images.githubusercontent.com/52392004/216788668-6c52d40d-92ef-41b3-a592-80530fc1365b.png)
 
-생성한 인스턴스를 선택하고, [Connect]를 선택합니다. 
+
 
 
 
