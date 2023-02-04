@@ -1,4 +1,4 @@
-# NVIDA GPU 설정
+# NVIDIA GPU 설정
 
 [Verify You Have a CUDA-Capable GPU](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#verify-you-have-a-cuda-capable-gpu)에 따라 GPU를 확인하면 아래와 같습니다. 
 
