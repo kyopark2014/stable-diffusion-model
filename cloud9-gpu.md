@@ -59,8 +59,9 @@ sudo apt-get install -y pip python2 nodejs
 
 다시 Cloud9으로 와서 [User]에 "ubuntu"라고 입력하고, 생성한 EC2의 Public IP를 아래처럼 입력합니다. 이후 하단의 [Create]를 선택하여 Cloud9을 선택합니다. 
 
+![noname](https://user-images.githubusercontent.com/52392004/216788847-86a544de-a847-4a21-a883-6db25d2906da.png)
 
-![noname](https://user-images.githubusercontent.com/52392004/216661248-2fb846d2-4e07-435d-8b79-d4f8d037c206.png)
+
 
 
 아래와 같이 [Environment](https://ap-northeast-2.console.aws.amazon.com/cloud9control/home?region=ap-northeast-2#/)에서 생성한 "cloud9-gpu"에서 [Open]을 선택하여 cloud9으로 진입합니다. 
