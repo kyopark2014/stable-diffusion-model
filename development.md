@@ -46,3 +46,12 @@ wget https://raw.githubusercontent.com/kyopark2014/technical-summary/main/resize
 chmod a+rx resize.sh
 ./resize.sh 100
 ```
+
+3) 관련 라이브러리 설치
+
+```java
+sudo apt-get install python-pip
+pip install python2 nodejs
+pip install torch diffusers transformers accelerate
+```
+
