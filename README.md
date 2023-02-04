@@ -14,6 +14,8 @@ Prompt Engineering으로도 불리는 [Stable Diffusion](https://stability.ai/bl
 
 ## Stable Diffusion 실행
 
+### Text2Image
+
 Stable Diffusion을 실행할때 필요한 라이브러리를 설치합니다. 
 
 ```java
@@ -68,6 +70,11 @@ cd text2image/ && python3 stable-diffusion.py
 이때의 결과는 아래와 같습니다.
 
 ![astronaut_rides_horse](https://user-images.githubusercontent.com/52392004/216675578-137efd06-7c39-419d-a37b-ac3ca274f601.png)
+
+### Image2Image
+
+### In-painting
+
 
 
 ## Docker 설치
