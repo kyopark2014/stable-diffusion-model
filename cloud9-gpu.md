@@ -40,9 +40,17 @@
 echo <Paste the Copied Key> >> ~/.ssh/authorized_keys
 ```
 
-아래와 같이 입력됩니다. 
 
-![noname](https://user-images.githubusercontent.com/52392004/216789022-03780e17-684e-4941-958f-fe54856ae46b.png)
+아래와 같이 정상적으로 입력되었는지 확인합니다.
+
+```java
+cat ~/.ssh/authorized_keys
+```
+
+여기서는 아래처럼 확인할 수 있습니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/216789211-ed1ceb16-7f82-4416-b04e-8145d59b8936.png)
+
 
 
 필요한 패키지를 설치하기위해 먼저 Update를 수행합니다. 
