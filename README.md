@@ -89,6 +89,8 @@ cd text2image/ && python3 stable-diffusion.py
 
 ### In-painting
 
+mask된 영역을 제거하고 "Face of a yellow cat, high resolution, sitting on a park bench"로 변환한 결과는 아래와 같습니다. 
+
 - 원본 이미지
 
 <img src="https://user-images.githubusercontent.com/52392004/216759803-cc1fc6d1-18ac-4410-bdd8-40cdd763c418.png" width="600">
