@@ -23,8 +23,7 @@ python3 -m pip install transformers
 ```
 
 ```java
-pip install torch diffusers transformers 
-pip install accelerate
+pip install torch diffusers transformers accelerate
 ```
 
 ### Text2Image
