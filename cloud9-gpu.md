@@ -20,7 +20,8 @@
 
 [EC2 Console](https://ap-northeast-2.console.aws.amazon.com/ec2/home?region=ap-northeast-2#Instances:)로 이동하여, 생성한 EC2를 선택하고 [Connect]를 선택합니다. 
 
-![noname](https://user-images.githubusercontent.com/52392004/216657296-77e8b81a-d287-4a50-ae17-8137c845bdbe.png)
+![noname](https://user-images.githubusercontent.com/52392004/216788527-687d8644-35e6-4264-83d3-28eebf04b9ef.png)
+
 
 아래와 같이 [Connect to instances]에서 [Connect]를 선택합니다. 
 
