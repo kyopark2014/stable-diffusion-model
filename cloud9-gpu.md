@@ -57,6 +57,13 @@ sudo apt-get update
 sudo apt-get install -y pip python2 nodejs
 ```
 
+아래 명령어로 node.js가 정상적으로 설치되었는지 확인합니다. 
+
+```java
+ubuntu@ip-172-31-35-64:~$ which node
+/usr/bin/node
+```
+
 다시 Cloud9으로 와서 [User]에 "ubuntu"라고 입력하고, 생성한 EC2의 Public IP를 아래처럼 입력합니다. 이후 하단의 [Create]를 선택하여 Cloud9을 선택합니다. 
 
 ![noname](https://user-images.githubusercontent.com/52392004/216788847-86a544de-a847-4a21-a883-6db25d2906da.png)
