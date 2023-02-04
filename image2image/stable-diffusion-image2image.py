@@ -56,7 +56,7 @@ def imageToimage(device):
 
     pipe = pipe.to(device)
 
-    # 
+    # from url
     #url = "https://raw.githubusercontent.com/CompVis/stable-diffusion/main/assets/stable-samples/img2img/sketch-mountains-input.jpg"
     #prompt = "A fantasy landscape, trending on artstation"
 
@@ -64,13 +64,21 @@ def imageToimage(device):
     #init_image = Image.open(BytesIO(response.content)).convert("RGB")
     #init_image = init_image.resize((768, 512))
 
+
+    # from local
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))  
     print('BASE_DIR = ', BASE_DIR)
     fname = "pelican.jpeg"
     prompt = "A fantasy landscape, trending on artstation"
-
-    init_image = load_image(os.path.join(BASE_DIR, fname))
-
+    init_image = load_image(os.path.join(BASE_DIR, fname)).convert("RGB")
+    init_image = init_image.resize((768, 512))
+    
+    
+    #url = "pelican.jpeg"
+    #prompt = "A fantasy landscape, trending on artstation"
+    #response = requests.get(url)
+    #init_image = Image.open(BytesIO(response.content)).convert("RGB")
+    #init_image = init_image.resize((768, 512))
 
     images = pipe(prompt=prompt, image=init_image, strength=0.75, guidance_scale=7.5).images
 
