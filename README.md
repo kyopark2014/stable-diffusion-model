@@ -5,7 +5,7 @@ Prompt Engineering으로도 불리는 [Stable Diffusion](https://stability.ai/bl
 
 ## 개발 환경
 
-[Cloud9 개발환경](https://github.com/kyopark2014/stable-diffusion-model/blob/main/development.md)에서는 GPU를 가지고 있는 EC2를 Cloud9 환경으로 만드는 과정을 설명합니다. 또한 NVIDIA GPU를 위한 CUDA를 설정하고 Docker 환경도 준비합니다. 
+[Stable Diffusion 개발환경](https://github.com/kyopark2014/stable-diffusion-model/blob/main/development.md)에서는 GPU를 가지고 있는 EC2를 Cloud9 환경으로 만드는 과정을 설명합니다. 또한 NVIDIA GPU를 위한 CUDA를 설정하고 Docker 환경도 준비합니다. 
 
 ## Stable Diffusion 실행
 
