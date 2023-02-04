@@ -77,3 +77,5 @@ sudo usermod -aG docker $USER
 ## Reference
 
 [Hugging Face - runwayml/stable-diffusion-v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5)
+
+[Hugging Face - fffiloni/sd-img-variations](https://huggingface.co/spaces/fffiloni/sd-img-variations)
