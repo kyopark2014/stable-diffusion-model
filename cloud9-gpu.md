@@ -1,5 +1,7 @@
 # Cloud9 설치
 
+여기서 설명하는 모든 과정은 한국 리전을 기준으로 합니다. 
+
 ## EC2 생성 
 
 [EC2 console](https://ap-northeast-2.console.aws.amazon.com/ec2/home?region=ap-northeast-2#LaunchInstances:)에 접속하여 [Name]을 입력하고, OS로 "Ubuntu"를 선택합니다. 여기서는 [Name]으로 "cloud9-gpu"라고 입력하였습니다. 
@@ -53,7 +55,7 @@ sudo apt-get install -y pip python2 nodejs
 ![noname](https://user-images.githubusercontent.com/52392004/216661248-2fb846d2-4e07-435d-8b79-d4f8d037c206.png)
 
 
-아래와 같이 [Environment]에서 생성한 "cloud9-gpu"에서 [Open]을 선택하여 cloud9으로 진입합니다. 
+아래와 같이 [Environment](https://ap-northeast-2.console.aws.amazon.com/cloud9control/home?region=ap-northeast-2#/)에서 생성한 "cloud9-gpu"에서 [Open]을 선택하여 cloud9으로 진입합니다. 
 
 ![noname](https://user-images.githubusercontent.com/52392004/216733393-1635c558-35a8-4ba6-b177-fb4bea3ac701.png)
 
