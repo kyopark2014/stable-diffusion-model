@@ -94,8 +94,14 @@ sudo usermod -aG docker $USER
 
 [Hugging Face - runwayml/stable-diffusion-v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5)
 
+
+[Text-to-Image generation with Stable Diffusion](https://github.com/huggingface/diffusers#text-to-image-generation-with-stable-diffusion)
+
+[Image-to-Image text-guided generation with Stable Diffusion](https://github.com/huggingface/diffusers#image-to-image-text-guided-generation-with-stable-diffusion)
+
+[In-painting using Stable Diffusion](https://github.com/huggingface/diffusers#in-painting-using-stable-diffusion)
+
+
 [Stable Diffusion blog](https://huggingface.co/blog/stable_diffusion)
 
 [Hugging Face - fffiloni/sd-img-variations](https://huggingface.co/spaces/fffiloni/sd-img-variations)
-
-[Image-to-Image text-guided generation with Stable Diffusion](https://github.com/huggingface/diffusers#image-to-image-text-guided-generation-with-stable-diffusion)
