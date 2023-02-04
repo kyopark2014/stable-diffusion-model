@@ -42,7 +42,7 @@ echo <Paste the Copied Key> >> ~/.ssh/authorized_keys
 
 아래와 같이 입력됩니다. 
 
-![noname](https://user-images.githubusercontent.com/52392004/216660260-e01667b7-1c5c-41db-8539-ff5b9ac8d6ea.png)
+![noname](https://user-images.githubusercontent.com/52392004/216789022-03780e17-684e-4941-958f-fe54856ae46b.png)
 
 
 필요한 패키지를 설치하기위해 먼저 Update를 수행합니다. 
