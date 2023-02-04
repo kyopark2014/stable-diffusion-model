@@ -29,7 +29,10 @@
 
 아래와 같이 [Connect to instances]에서 [Connect]를 선택합니다. 
 
-![noname](https://user-images.githubusercontent.com/52392004/216657819-4fd9629b-a000-4d1b-a602-ef6971a698ed.png)
+![noname](https://user-images.githubusercontent.com/52392004/216788766-4ce84802-618b-455e-b76f-51938a3dc0d5.png)
+
+
+
 
 이제 authorized_keys에 Cloud9에서 복사한 ssh key를 입력합니다. 
 
