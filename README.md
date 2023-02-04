@@ -9,7 +9,7 @@ Prompt Engineering으로도 불리는 [Stable Diffusion](https://stability.ai/bl
 
 ## Stable Diffusion 실행
 
-## Library 설치
+### Library 설치
 
 Stable Diffusion을 실행할때 필요한 라이브러리를 설치합니다. 
 
