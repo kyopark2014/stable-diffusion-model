@@ -17,8 +17,7 @@ Prompt Engineering으로도 불리는 [Stable Diffusion](https://stability.ai/bl
 Stable Diffusion을 실행할때 필요한 라이브러리를 설치합니다. 
 
 ```java
-pip install torch diffusers transformers 
-pip install accelerate
+pip install torch diffusers transformers accelerate
 ```
 
 [stable-diffusion-v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5)을 참조하여 [stable-diffusion.py](https://github.com/kyopark2014/stable-diffusion-model/blob/main/text2image/stable-diffusion.py)을 생성하거나 아래와 같이 다운로드합니다.
