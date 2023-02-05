@@ -40,6 +40,13 @@ python3 stable-diffusion-model/text2image/text2image.py
 
 ### Image2Image
 
+아래와 같이 실행합니다.
+
+```java
+git clone https://github.com/kyopark2014/stable-diffusion-model
+python3 stable-diffusion-model/image2image/image2image.py 
+```
+
 [image2image.py](https://github.com/kyopark2014/stable-diffusion-model/blob/main/image2image/image2image.py)을 이용하여 원본 이미지를 "A fantasy landscape, trending on artstation"로 변환한 결과는 아래와 같습니다.
 
 - 원본 이미지
@@ -55,6 +62,13 @@ python3 stable-diffusion-model/text2image/text2image.py
 
 
 ### In-painting
+
+아래와 같이 실행합니다.
+
+```java
+git clone https://github.com/kyopark2014/stable-diffusion-model
+python3 stable-diffusion-model/in-painting/in-painting.py
+```
 
 [in-painting.py](https://github.com/kyopark2014/stable-diffusion-model/blob/main/in-painting/in-painting.py)을 이용하여 mask된 영역을 제거하고 "Face of a yellow cat, high resolution, sitting on a park bench"로 변환한 결과는 아래와 같습니다. 
 
