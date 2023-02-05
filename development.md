@@ -31,6 +31,9 @@ echo \
 
 ```java
 sudo apt-get upgrade -y
+```
+
+```java
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
