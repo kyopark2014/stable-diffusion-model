@@ -19,6 +19,21 @@ pip install torch diffusers transformers accelerate
 
 ### Text2Image
 
+아래와 같이 실행합니다.
+
+```java
+git clone https://github.com/kyopark2014/stable-diffusion-model
+python3 stable-diffusion-model/text2image/text2image.py
+```
+
+아래와 같이 100%가 되면 Cloud9에서 결과를 확인할 수 있습니다.
+
+![noname](https://user-images.githubusercontent.com/52392004/216795219-6d46c793-6cf2-45cb-8e46-59b676f4fe2e.png)
+
+
+
+
+
 [stable-diffusion-v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5)을 참조하여 [text2image.py](https://github.com/kyopark2014/stable-diffusion-model/blob/main/text2image/text2image.py)에서는 "a photo of an astronaut riding a horse on mars"을 이용하여 아래와 같은 이미지를 생성합니다. 
 
 ![astronaut_rides_horse](https://user-images.githubusercontent.com/52392004/216675578-137efd06-7c39-419d-a37b-ac3ca274f601.png)
