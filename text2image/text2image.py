@@ -12,6 +12,8 @@ def text2image(device):
     pipe = pipe.to(device)
 
     prompt = "a photo of an astronaut riding a horse on mars"
+    # prompt = "a daisy in impressionist style"
+
     image = pipe(prompt).images[0]  
         
     image.save("astronaut_rides_horse.png")
