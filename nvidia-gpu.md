@@ -49,6 +49,9 @@ sudo cp /var/cuda-repo-ubuntu2204-12-0-local/cuda-*-keyring.gpg /usr/share/keyri
 
 ```java
 sudo apt-get update
+```
+
+```java
 sudo apt-get -y install cuda
 ```
 
