@@ -32,7 +32,11 @@
 ![noname](https://user-images.githubusercontent.com/52392004/216788766-4ce84802-618b-455e-b76f-51938a3dc0d5.png)
 
 
+기존의 authorized_keys를 삭제합니다.
 
+```java
+rm .ssh/authorized_keys
+```
 
 이제 authorized_keys에 Cloud9에서 복사한 ssh key를 입력합니다. 
 
